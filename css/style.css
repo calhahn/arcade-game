@@ -1,0 +1,67 @@
+/*
+ * General settings
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #fff url(../images/geometry2.png); /* Background pattern from Subtle Patterns */
+  color: rgba(0, 0, 0, .87);
+  text-align: center;
+}
+
+/*
+ * Styles for the header
+ */
+
+header {
+  height: 60px;
+  line-height: 60px;
+}
+
+h1 {
+  font-family: fira sans, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/*
+ * Styles for the canvas
+ */
+
+canvas {
+  margin: -50px 0 0;
+}
+
+/*
+ * Styles for the score panel
+ */
+
+.score-panel {
+  margin: 0 auto 15px;
+  max-width: 505px;
+}
+
+.score-panel .data {
+  font-family: fira mono, monospace;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 15px;
+  text-align: left;
+}
