@@ -1,6 +1,6 @@
 # Classic Arcade Game
 
-## Table of Contents
+Contents:
 
 - [About](#about)
 - [Rules](#rules)
@@ -21,4 +21,5 @@ avoiding to be caught by the bugs.
 
 Open `index.html` in your browser on your laptop or desktop computer to play the
 game. Keep in mind that it was only tested to work in Google Chrome. Use the
-arrow keys on your keyboard to move the player character.
+arrow keys on your keyboard to move the player character. Alternatively, you can
+play [here](https://calhahn.github.io/arcade-game/).
